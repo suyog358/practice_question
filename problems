@@ -1,0 +1,40 @@
+There are many operations which we can perform on set, some of them are described below.
+
+Set union
+https://i.imgur.com/dD0HAyU.jpeg
+
+The .union() operator returns the union of a set and the set of elements in an iterable.
+ Sometimes, the | operator is used in place of .union() operator, but it operates only on the set of elements in set.
+ Set is immutable to the .union() operation (or | operation).
+
+s = set("Scaler")
+print s.union("Academy")
+# set(['a', 'S', 'c', 'l', 'e', 'r', 'A', 'd', 'm', 'y'])
+Set intersection
+https://i.imgur.com/OkOMavE.jpeg
+
+
+
+The .intersection() operator returns the intersection of a set and the set of elements in an iterable.
+ Sometimes, the & operator is used in place of the .intersection() operator, but it only operates on the set of elements in set.
+ The set is immutable to the .intersection() operation (or & operation).
+
+s = set("Scaler")
+print s.intersection("Academy")
+# set(['c', 'a', 'e'])
+Set difference
+https://i.imgur.com/2LB7i9R.jpeg
+
+
+
+The tool .difference() returns a set with all the elements from the set that are not in an iterable.
+ Sometimes the - operator is used in place of the .difference() tool, but it only operates on the set of elements in set.
+ Set is immutable to the .difference() operation (or the - operation).
+
+s = set("Scaler")
+print s.difference("Academy")
+# set(['r', 'l', 'S'])
+Try the following excercise in the editor below.
+You are given three sets X, Y, Z where X contains the children id who loves to play Football, Y contains the children id who loves to play Cricket, and Z contains the children id who loves to play BasketBall. You need to perform operations on these sets as decribed in comments.
+
+Note: You are only required to add your code, no need to change any of the given statements
